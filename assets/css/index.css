@@ -1,0 +1,20 @@
+.info {
+    padding: 20px;
+    margin-right: 20px;
+    border-radius: 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  }
+
+  .info:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: 500ms;
+  }
+
+  .zoomable {
+      cursor: pointer;
+      transition: transform 0.3s;
+  }
+
+  .zoomable.zoomed {
+      transform: scale(2); /* Ubah sesuai dengan faktor perbesaran yang Anda inginkan */
+  }
